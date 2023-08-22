@@ -18,6 +18,8 @@ const AnswerButton = styled.button`
   ${({ isSelectedAnswer, isCorrect, showResults }) =>
     showResults && isCorrect
       ? "#94D7A2"
+      : showResults && isSelectedAnswer && !isCorrect
+      ? "#F8BCBC" 
       : isSelectedAnswer
       ? "#D6DBF5"
       : "#4D5B9E"};
