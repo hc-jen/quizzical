@@ -34,7 +34,7 @@ export default function Quiz({
                                   isSelectedAnswer={selectedAnswer === a}
                                   onSelect={handleAnswerSelect}
                                   name={question}
-/>
+                          />
 )
     console.log('finalAnswers',finalAnswers)
 
